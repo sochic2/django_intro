@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block title %}today{% endblock %}
+{% block body %}
+    <h1>날씨 :{{ description }}</h1>
+    <h1>도시 : {{ city_name }}</h1>
+    <h1>온도 : {{ degree }}</h1>
+    <h1>시간 : {{ now_time }}</h1>
+{% endblock %}
